@@ -11,7 +11,7 @@ public class Program3 {
             names[i] = scanner.nextLine();
         }
 
-        System.out.println("\n--- List of 5 Names ---");
+        System.out.println("\n List of 5 Names ");
         for (int i = 0; i < 5; i++) {
             System.out.println((i + 1) + ". " + names[i]);
         }
