@@ -10,7 +10,7 @@ public class Program2 {
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 
-        System.out.println("\n--- Output ---");
+        System.out.println("\n Output ");
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
 
