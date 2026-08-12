@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 class Student {
-    // 1. Variables
+   
     String name;
     int age;
     int rollNo;
     int marks;
 
-    // 2. input() method to take student details from user
+    
     void input() {
         Scanner sc = new Scanner(System.in);
 
@@ -24,7 +24,7 @@ class Student {
         marks = sc.nextInt();
     }
 
-    // 3. display() method to output student details
+    
     void display() {
         System.out.println("------ Student Details ------");
         System.out.println("Name: " + name);
